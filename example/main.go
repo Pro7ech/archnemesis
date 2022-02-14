@@ -6,20 +6,21 @@ import (
 
 func main() {
 	arch.Missing("Innocence-Touched", Inventory)
+	arch.Missing("Kitava-Touched", Inventory)
 }
 
 var Inventory = map[string]int{
 
 	//T0
-	"Arcane Buffer": 2,
-	"Berserker":     2,
-	"Bloodletter":   2,
-	"Bombardier":    1,
-	"Bonebreaker":   2,
-	"Chaosweaver":   1,
-	"Concecrator":   2,
+	"Arcane Buffer": 3,
+	"Berserker":     1,
+	"Bloodletter":   3,
+	"Bombardier":    2,
+	"Bonebreaker":   1,
+	"Chaosweaver":   3,
+	"Concecrator":   1,
 	"Deadeye":       2,
-	"Dynamo":        1,
+	"Dynamo":        2,
 	"Echoist":       2,
 	"Flameweaver":   2,
 	"Frenzied":      0,
@@ -27,16 +28,16 @@ var Inventory = map[string]int{
 	"Gargantuan":    1,
 	"Hasted":        2,
 	"Incendiary":    0,
-	"Juggernaut":    2,
+	"Juggernaut":    0,
 	"Malediction":   2,
-	"Overcharged":   1,
+	"Overcharged":   2,
 	"Permafrost":    2,
-	"Sentinel":      2,
+	"Sentinel":      1,
 	"Soul Conduit":  2,
-	"Steel-Invused": 3,
+	"Steel-Invused": 1,
 	"Stormweaver":   1,
 	"Toxic":         2,
-	"Vampiric":      1,
+	"Vampiric":      2,
 
 	//T1
 	"Assassin":          0,
@@ -46,14 +47,14 @@ var Inventory = map[string]int{
 	"Evocationist":      0,
 	"Executioner":       0,
 	"Flame Strider":     1,
-	"Frost Strider":     1,
+	"Frost Strider":     0,
 	"Heralding Minions": 1,
 	"Hexer":             1,
 	"Ice Prison":        1,
-	"Magma Barrier":     0,
-	"Mana Siphoner":     1,
-	"Mirror Image":      1,
-	"Necromancer":       1,
+	"Magma Barrier":     1,
+	"Mana Siphoner":     0,
+	"Mirror Image":      0,
+	"Necromancer":       0,
 	"Rejugenating":      1,
 	"Storm Rider":       0,
 
@@ -63,7 +64,7 @@ var Inventory = map[string]int{
 	"Effigy":             1,
 	"Empowered Elements": 1,
 	"Empowering Minions": 0,
-	"Invulnerable":       1,
+	"Invulnerable":       0,
 	"Soul Eater":         0,
 	"Temporal Bubble":    1,
 	"Treant Horde":       1,
@@ -79,7 +80,7 @@ var Inventory = map[string]int{
 	"Shakari-Touched":    0,
 
 	// T4
-	"Innocence-Touched": 0,
+	"Innocence-Touched": 1,
 	"Kitava-Touched":    0,
 }
 

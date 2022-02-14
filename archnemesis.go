@@ -12,7 +12,7 @@ func Missing(target string, inventory map[string]int){
 func missing(target string, inventory map[string]int, level int, isMissing bool) {
 
 	if level == 0 {
-		color.Red(target)
+		color.Magenta(target)
 	}
 
 	for _, i := range RecipeList[target] {
